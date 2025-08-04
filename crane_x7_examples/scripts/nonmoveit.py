@@ -105,7 +105,7 @@ class HybridControl:
             rospy.sleep(0.005)
 
     def control_loop(self):
-        rate = rospy.Rate(100)
+        rate = rospy.Rate(50)
         EndF = False
 
         while not EndF and not rospy.is_shutdown():
