@@ -1,0 +1,26 @@
+digraph G {
+"world" -> "base_link"[label="Broadcaster: /robot_state_publisher\nAverage rate: 10000.000 Hz\nMost recent transform: 0.000 ( 1722227376.425 sec old)\nBuffer length: 0.000 sec\n"];
+"crane_x7_lower_arm_fixed_part_link" -> "crane_x7_lower_arm_fixed_part_joint_cover_l_link"[label="Broadcaster: /robot_state_publisher\nAverage rate: 10000.000 Hz\nMost recent transform: 0.000 ( 1722227376.425 sec old)\nBuffer length: 0.000 sec\n"];
+"crane_x7_upper_arm_revolute_part_link" -> "crane_x7_lower_arm_fixed_part_link"[label="Broadcaster: /robot_state_publisher\nAverage rate: 10.208 Hz\nMost recent transform: 1722227376.373 ( 0.052 sec old)\nBuffer length: 4.800 sec\n"];
+"crane_x7_lower_arm_fixed_part_link" -> "crane_x7_lower_arm_fixed_part_joint_cover_r_link"[label="Broadcaster: /robot_state_publisher\nAverage rate: 10000.000 Hz\nMost recent transform: 0.000 ( 1722227376.425 sec old)\nBuffer length: 0.000 sec\n"];
+"crane_x7_lower_arm_revolute_part_link" -> "crane_x7_lower_arm_revolute_part_logo_symbol_l_link"[label="Broadcaster: /robot_state_publisher\nAverage rate: 10000.000 Hz\nMost recent transform: 0.000 ( 1722227376.425 sec old)\nBuffer length: 0.000 sec\n"];
+"crane_x7_lower_arm_fixed_part_link" -> "crane_x7_lower_arm_revolute_part_link"[label="Broadcaster: /robot_state_publisher\nAverage rate: 10.208 Hz\nMost recent transform: 1722227376.373 ( 0.052 sec old)\nBuffer length: 4.800 sec\n"];
+"crane_x7_lower_arm_revolute_part_link" -> "crane_x7_lower_arm_revolute_part_logo_symbol_r_link"[label="Broadcaster: /robot_state_publisher\nAverage rate: 10000.000 Hz\nMost recent transform: 0.000 ( 1722227376.425 sec old)\nBuffer length: 0.000 sec\n"];
+"crane_x7_lower_arm_revolute_part_link" -> "crane_x7_lower_arm_revolute_part_logo_text_l_link"[label="Broadcaster: /robot_state_publisher\nAverage rate: 10000.000 Hz\nMost recent transform: 0.000 ( 1722227376.425 sec old)\nBuffer length: 0.000 sec\n"];
+"crane_x7_lower_arm_revolute_part_link" -> "crane_x7_lower_arm_revolute_part_logo_text_r_link"[label="Broadcaster: /robot_state_publisher\nAverage rate: 10000.000 Hz\nMost recent transform: 0.000 ( 1722227376.425 sec old)\nBuffer length: 0.000 sec\n"];
+"base_link" -> "crane_x7_mounting_plate_link"[label="Broadcaster: /robot_state_publisher\nAverage rate: 10000.000 Hz\nMost recent transform: 0.000 ( 1722227376.425 sec old)\nBuffer length: 0.000 sec\n"];
+"crane_x7_mounting_plate_link" -> "crane_x7_shoulder_fixed_part_link"[label="Broadcaster: /robot_state_publisher\nAverage rate: 10000.000 Hz\nMost recent transform: 0.000 ( 1722227376.425 sec old)\nBuffer length: 0.000 sec\n"];
+"crane_x7_upper_arm_fixed_part_link" -> "crane_x7_upper_arm_fixed_part_joint_cover_l_link"[label="Broadcaster: /robot_state_publisher\nAverage rate: 10000.000 Hz\nMost recent transform: 0.000 ( 1722227376.425 sec old)\nBuffer length: 0.000 sec\n"];
+"crane_x7_shoulder_revolute_part_link" -> "crane_x7_upper_arm_fixed_part_link"[label="Broadcaster: /robot_state_publisher\nAverage rate: 10.208 Hz\nMost recent transform: 1722227376.373 ( 0.052 sec old)\nBuffer length: 4.800 sec\n"];
+"crane_x7_upper_arm_fixed_part_link" -> "crane_x7_upper_arm_fixed_part_joint_cover_r_link"[label="Broadcaster: /robot_state_publisher\nAverage rate: 10000.000 Hz\nMost recent transform: 0.000 ( 1722227376.425 sec old)\nBuffer length: 0.000 sec\n"];
+"crane_x7_gripper_base_link" -> "crane_x7_gripper_finger_a_link"[label="Broadcaster: /robot_state_publisher\nAverage rate: 10.208 Hz\nMost recent transform: 1722227376.373 ( 0.052 sec old)\nBuffer length: 4.800 sec\n"];
+"crane_x7_wrist_link" -> "crane_x7_gripper_base_link"[label="Broadcaster: /robot_state_publisher\nAverage rate: 10.208 Hz\nMost recent transform: 1722227376.373 ( 0.052 sec old)\nBuffer length: 4.800 sec\n"];
+"crane_x7_gripper_base_link" -> "crane_x7_gripper_finger_b_link"[label="Broadcaster: /robot_state_publisher\nAverage rate: 10.208 Hz\nMost recent transform: 1722227376.373 ( 0.052 sec old)\nBuffer length: 4.800 sec\n"];
+"crane_x7_lower_arm_revolute_part_link" -> "crane_x7_wrist_link"[label="Broadcaster: /robot_state_publisher\nAverage rate: 10.208 Hz\nMost recent transform: 1722227376.373 ( 0.052 sec old)\nBuffer length: 4.800 sec\n"];
+"crane_x7_shoulder_fixed_part_link" -> "crane_x7_shoulder_revolute_part_link"[label="Broadcaster: /robot_state_publisher\nAverage rate: 10.208 Hz\nMost recent transform: 1722227376.373 ( 0.052 sec old)\nBuffer length: 4.800 sec\n"];
+"crane_x7_upper_arm_fixed_part_link" -> "crane_x7_upper_arm_revolute_part_link"[label="Broadcaster: /robot_state_publisher\nAverage rate: 10.208 Hz\nMost recent transform: 1722227376.373 ( 0.052 sec old)\nBuffer length: 4.800 sec\n"];
+edge [style=invis];
+ subgraph cluster_legend { style=bold; color=black; label ="view_frames Result";
+"Recorded at time: 1722227376.425"[ shape=plaintext ] ;
+ }->"world";
+}
