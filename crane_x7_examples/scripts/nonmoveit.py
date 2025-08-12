@@ -219,8 +219,8 @@ class HybridControl:
         rospy.sleep(1)
 
     def calculate_pid_control_signal(self, error):
-        kp = 0.02
-        ki = 0.00005
+        kp = 0.1
+        ki = 0.0001
         kd = 0.03
         self.integral_list.pop(0)
         self.integral_list.append(error)

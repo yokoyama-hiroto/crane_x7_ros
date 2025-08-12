@@ -1,0 +1,24 @@
+{
+  "configurations": [
+    {
+      "browse": {
+        "databaseFilename": "${default}",
+        "limitSymbolsToIncludedHeaders": false
+      },
+      "includePath": [
+        "/home/warifuku2/yokomura/cx7_catkin_ws/devel/include/**",
+        "/opt/ros/melodic/include/**",
+        "/home/warifuku2/yokomura/cx7_catkin_ws/src/crane_x7_ros/crane_x7_control/include/**",
+        "/home/warifuku2/yokomura/cx7_catkin_ws/src/DynamixelSDK/ros/dynamixel_sdk/include/**",
+        "/home/warifuku2/yokomura/cx7_catkin_ws/src/force_sensor/force_sensor_pub/include/**",
+        "/usr/include/**"
+      ],
+      "name": "ROS",
+      "intelliSenseMode": "gcc-x64",
+      "compilerPath": "/usr/bin/gcc",
+      "cStandard": "gnu11",
+      "cppStandard": "c++14"
+    }
+  ],
+  "version": 4
+}
